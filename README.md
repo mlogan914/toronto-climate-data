@@ -1,4 +1,4 @@
-# Mini Project - Toronto Climate Data
+# Mini-Project - Toronto Climate Data
 
 ## 1. Business Scenario
 The objective is to process Canadian Climate data.
