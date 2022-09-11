@@ -11,11 +11,11 @@ SCRIPT_TYPE=`basename $0 | cut -d '.' -f1` # = (get the first line of the file )
 filenametime1=$(date +"%m%d%Y%H%M%S")
 filenametime2=$(date +"%Y-%m-%d %H:%M:%S")
 # === Set Variables === #                      
-export BASE_FOLDER='/home/mlogan/wcd/lab1'
-export SCRIPTS_FOLDER='/home/mlogan/wcd/lab1'
-export INPUT_FOLDER='/home/mlogan/wcd/lab1'
-export OUT_FOLDER='/home/mlogan/wcd/lab1/toronto-climate-data'
-export LOGDIR='/home/mlogan/wcd/lab1/toronto-climate-data/logs'
+export BASE_FOLDER='/base/path/here'
+export SCRIPTS_FOLDER='/scripts/path/here'
+export INPUT_FOLDER='/input/folder/here'
+export OUT_FOLDER='/out/folder/here'
+export LOGDIR='/log/folder/here/'
 export SHELL_SCRIPT_NAME='toronto_climate'
 export LOG_FILE=${LOGDIR}/${SHELL_SCRIPT_NAME}_${filenametime1}.log
 
