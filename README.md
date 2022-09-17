@@ -4,7 +4,7 @@
 The objective is to process Canadian Climate data using command line interface (CLI).
 
 ## 2. Business Requirements
-- Download the data from Canadian Climate located at :https://climate.weather.gc.ca/historical_data/search_historic_data_e.html. 
+- Download the data from Canadian Climate located at : https://climate.weather.gc.ca/historical_data/search_historic_data_e.html. 
 - Append the downloaded files into one final csv file, named all_years.csv.
 - All scripts, data and final csv file is pushed to this Github repository using shell commands.
 
