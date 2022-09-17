@@ -1,26 +1,22 @@
 # Mini-Project - Toronto Climate Data
 
 ## 1. Business Scenario
-The objective is to process Canadian Climate data.
-Usually, if we want to download the weather data manually, we go to the website directly and use the GUI to navigate: https://climate.weather.gc.ca/historical_data/search_historic_data_e.html. 
-However, this project was performed via CLI
+The objective is to process Canadian Climate data using command line interface (CLI).
 
 ## 2. Business Requirements
-- Download the data from Canadian Climate.
-- Concatenate the downloaded files into one final csv file, called all_years.csv.
+- Download the data from Canadian Climate located at :https://climate.weather.gc.ca/historical_data/search_historic_data_e.html. 
+- Append the downloaded files into one final csv file, named all_years.csv.
 - All scripts, data and final csv file is pushed to this Github repository using shell commands.
 
 ## 3. Deliverable
 - Shell script: Use a shell script to control every operation, including data downloading, log setting, python script running.
-- Python script: Use a Python script to concatenate all downloaded data into one file.
+- Python script: Use a Python script to append downloaded data into one file.
 - all_years.csv: This is the output file of concatenated downloads.
 
 ## 4. Program Procedure
-1. Download data with shell command(s)
-2. Concatenate data into one file using a python script
-3. Save output file in the python script
-4. Print out 'SUCCESS' with shell command
-5. Create a repository in github, and upload the file to a repo with git
+1. Download data using shell commands
+2. Write a Python script to append data into a single file, save the output, and print execution status using a shell command
+3. Create a repository in github, and upload the file to a repo with git via CLI
 
 The Shell script will call the Python Script to finish the Python work.
 
@@ -29,7 +25,7 @@ The Shell script will call the Python Script to finish the Python work.
 2. The year range of the data we want is from 2020 to 2022.
 3. We only want the data in February.
 4. The data will be downloaded in hourly format.
-5. The output file will be named as all_years.csv.
+5. The output file will be named all_years.csv.
 
 ## 6. Technical Instruction
 ### 1. How to download data?
@@ -51,5 +47,5 @@ Shell Specifications:
 1. Must be run in bash or zsh shell (not sh, not dash)
 2. Must define the various directories.
 3. Must generate logs.
-4. Can print error when there is a programming error.
+4. Must print error when there is a programming error.
 5. Must have a mechanism to exit the program safely.
