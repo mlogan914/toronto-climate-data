@@ -9,9 +9,9 @@ The objective is to process Canadian Climate data using command line interface (
 - All scripts, data and final csv file is pushed to this Github repository using shell commands.
 
 ## 3. Deliverable
-1. Shell script: Use a shell script to control every operation, including data downloading, log setting, python script running.
-2. Python script: Use a Python script to append downloaded data into one file.
-3. all_years.csv: This is the output file of concatenated downloads.
+- **Shell script**: Use a shell script to control every operation, including data downloading, log setting, python script running.
+- **Python script**: Use a Python script to append downloaded data into one file.
+- **all_years.csv**: This is the output file of concatenated downloads.
 
 ## 4. Program Procedure
 1. Download data using shell commands
