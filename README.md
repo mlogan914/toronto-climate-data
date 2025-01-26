@@ -1,4 +1,4 @@
-# Mini-Project -- Downloading Toronto Climate Data using CLI
+# Mini-Project - Downloading Toronto Climate Data using CLI
 
 ## 1. Business Scenario
 The objective is to process Canadian Climate data using command line interface (CLI).
